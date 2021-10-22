@@ -1,0 +1,3 @@
+install: 
+FILE="-Dfile=cobapublish-v1.0-beta-release.aar" 
+mvn install:install-file $FILE -DgroupId=id.co.kredibel.cobapublish -DartifactId=test -Dversion=1.0 -Dpackaging=aar -DpomFile=pom-default.xml
